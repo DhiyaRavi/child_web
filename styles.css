@@ -1,0 +1,185 @@
+header{
+    background-color:#964B00;
+    top:0;
+    padding:5px;
+    display: flex;
+    justify-content: center;
+    position:relative;
+}
+
+  nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+
+  }
+  header nav {
+  position: absolute;
+  margin-top:30px;
+  font-size:20px;
+  gap:10px;
+  right: 20px;
+  
+}
+
+nav a {
+    margin-right: 20px;
+  }
+  
+  nav a:last-child {
+    margin-right: 20;
+  }
+  
+   
+  nav a {
+    text-decoration: none;
+    color: #fff;
+  }
+  
+
+h1{
+    position:sticky;
+    top:0;
+    color:#F0E4CC;
+    font-family: "Tuffy", sans-serif;
+  font-weight: 700;
+  font-style: bold;
+  text-align:center;
+  
+}
+body{
+    background-color:#F5F5DC;
+}
+.container{
+    margin-top:10px;
+    display:grid;
+    grid-template-rows:1fr 1fr 1fr 1fr ;
+    grid-template-columns: 1fr 1fr 1fr 1fr ;
+    gap:30px;
+}
+.alpha{
+    width:250px;
+    height:250px;
+    background-color: #f3f3f3;
+    border-radius:5px;
+    justify-content:center;
+}
+.a{
+    background-image:url("A.jpeg");
+}
+.b{
+    background-image:url("B.jpeg");
+}
+.c{
+    background-image:url("cc.jpeg");
+}
+.d{
+    background-image:url("D.jpeg");
+
+}
+.e{
+    background-image:url("E.jpeg");
+}
+.f{
+    background-image:url("F.jpeg");
+}
+.g{
+    background-image:url("G.jpeg");
+}
+.h{
+    background-image:url("H.jpeg");
+}
+.i{
+    background-image:url("I.png");
+}
+.j{
+    background-image:url("J.jpeg");
+}
+.k{
+    background-image:url("K.jpeg");
+}
+.l{
+    background-image:url("L.jpeg");
+}
+.m{
+    background-image:url("M.png");
+}
+.n{
+    background-image:url("N.jpeg");
+}
+.o{
+    background-image:url("O.jpeg");
+}
+.p{
+    background-image:url("P.jpeg");
+}
+.q{
+    background-image:url("Q.jpeg");
+}
+.r{
+    background-image:url("R.jpeg");
+}
+.s{
+    background-image:url("S.jpeg");
+}
+.t{
+    background-image:url("T.jpeg");
+}
+.u{
+    background-image:url("U.jpeg");
+}
+.v{
+    background-image:url("V.jpeg");
+}
+.w{
+    background-image:url("W.jpeg");
+}
+.x{
+    background-image:url("X.jpeg");
+}
+.y{
+    background-image:url("Y.jpeg");
+}
+.z{
+    background-image:url("Z.jpeg");
+}
+.a, .b, .c, .d,.e ,.f,.g,.h,.i,.j,.k,.l,.m,.o,.p,.q,.r,.s,.t,.u,.v,.w,.x,.y,.z{
+    background-size: contain; /* or cover, depending on your needs */
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+  
+  .alpha:hover {
+    transform: scale(1.1);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    transition: all 0.3s ease-in-out;
+  }
+  @media (max-width: 768px) {
+    .container {
+      grid-template-columns: 1fr 1fr;
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .container {
+      grid-template-columns: 1fr;
+    }
+  }
+    footer{
+        margin-top:30px;
+        text-align:center;
+        background-color:green;
+        color:white;
+        padding:10px;
+        font-size:17px;
+        font-style:bold;
+    }
+    a{
+        text-decoration:none;
+        color:white;
+    }
+    li{
+        list-style: none;
+        float:right;
+        display:inline;
+    }
